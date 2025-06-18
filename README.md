@@ -32,3 +32,16 @@ submitting shows the same in burpsuite and the same on the page
 ![image](https://github.com/user-attachments/assets/96f365be-cd99-4b6f-8f31-8ca95ef986b9)  
 but this is different because the page pulls this image from a backups folder  
 ![image](https://github.com/user-attachments/assets/96e2afd8-03f2-46e9-a2f1-a19a9aed84df)  
+you can visit the backups folder to find the images folder and a backup.zip file  
+![image](https://github.com/user-attachments/assets/44f29adf-6d41-4a75-923c-74507d76f322)  
+i downloaded the zip file, but its all password protected  
+so i used pkcrack  
+using windows i can see all of the files in the zip, i just cant open them  
+![image](https://github.com/user-attachments/assets/98f8f394-b08b-4bc4-ae12-e53461b0e48e)  
+these in a folder called internal_messages  
+![image](https://github.com/user-attachments/assets/582824b1-e2b0-4600-a7f3-afd943850920)  
+and these in a misc folder  
+in order to use pkcrack we need a file thats identical and zipped, but missing a password  
+so we need to find one of the files in the folder, on the site  
+its just the main page  
+i compaired the sizes of the two and they seem to be exactly the same, so the hope is that the folder is exactly the same  
